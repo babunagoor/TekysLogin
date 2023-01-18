@@ -1,0 +1,193 @@
+.main-class {
+  width: 100%;
+}
+
+.lorry-img{
+  position: relative;
+}
+.side-banner {
+  height: 1120px;
+  width: 700px;
+}
+.first-txt{
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+  position: absolute;
+  top: 110px;
+  width: 100px;
+  margin-left: 120px;
+}
+.scnd-text{
+font-size: 14px;
+}
+
+.logo-banner {
+  width: 300px;
+  /* height: 50%; */
+}
+
+.login-screen {
+  height: auto;
+  margin-top: 150px;
+  margin-left: 300px; 
+  /* margin: auto; */
+  width: fit-content
+}
+
+.login-account {
+  color: gray;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+div.input-block {
+  position: relative;
+}
+
+div.input-block input {
+  font-weight: 600;
+  font-size: 20px;
+  color: #495055;
+  border-radius: 5px;
+  padding: 0px 15px;
+  border: 1px solid #D9D9D9;
+  outline: none;
+}
+
+div.input-block span.placeholder {
+  position: absolute;
+  margin:5px 0px 0px 4px;
+    padding: 5px 0px 0px 4px;
+  font-family: sans-serif;
+  color: #404040;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  top: 6;
+  left: 17px;
+  transition: all 0.2s;
+  transform-origin: 0% 0%;
+  background: none;
+  pointer-events: none;
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+
+div.input-block input:valid+span.placeholder,
+div.input-block input:focus+span.placeholder {
+  transform: scale(0.8) translateY(-30px);
+  background: rgb(255, 255, 255);
+}
+
+div.input-block input:focus {
+  color: #284B63;
+  border-color: #284B63;
+}
+
+div.input-block input:focus+span.placeholder {
+  color: #284B63;
+}
+
+#input-text {
+  max-width: 500px;
+  width: 490px;
+  min-width: 350px;
+  height: 55px;
+}
+.forgot-pass{
+  margin-top: 2px;
+  width: 490px;
+}
+.forgot-pass:hover{
+  text-decoration: underline;
+}
+.forget-text{
+  float: right;
+}
+.btns{
+  max-width: 500px;
+  width: 490px;
+  min-width: 350px;
+  height: 55px;
+  margin-top: 40px;
+  background-color: #E85B2A;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.right-part{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.system-logo{
+  float: left;
+  position: absolute;
+  margin-top: -35px;
+  padding-left: 60px;
+}
+.system-logos{
+  width: 960px;
+  margin-top: 50px;
+  
+}
+.system-l-logo{
+  float: right;
+  height: 240px;
+}
+/* Footer Css */
+.footer{
+  background-color: #E1E5E8;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+/* Responisve design starts Here */
+
+@media only screen and (max-width:1440px){
+  .login-screen {
+    margin-left: 200px;
+    margin-top: 120px;
+  }
+  .system-logos{
+    width: 820px;
+  }
+  .side-banner {
+    height: 100%;
+    width: 550px;
+  }
+  .system-logo{
+    margin-top: -47px;
+  }
+  .first-txt{
+    margin-top: -20px;
+  }
+}
+@media only screen and (max-width:1416px){
+  .login-screen {
+    margin-left: 200px;
+    margin-top: 120px;
+  }
+  .side-banner {
+    height: 100%;
+    width: 500px;
+  }
+  .system-logo{
+    margin-top: -52px;
+  }
+}
+
+
+
+/* root level Css */
+:root {
+  font-family: sans-serif;
+}
+html, body {
+  height: 100%;
+}
